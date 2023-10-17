@@ -9,4 +9,10 @@ int ValorVector(int vector[], int valor, int longitud) {
     }
     return 0;
 }
+int main() {  
+    int vector[10] = {3, 7, 2, 8, 1, 5, 6, 9, 4, 10};
+    int valorBuscado = 5;
+
+    int resultado = ValorVector(vector, valorBuscado, 10);
+}
         
