@@ -14,5 +14,13 @@ int main() {
     int valorBuscado = 5;
 
     int resultado = ValorVector(vector, valorBuscado, 10);
+
+    if (resultado == 1) {
+        printf("El valor %d se encuentra en el vector.\n", valorBuscado);
+    } else {
+        printf("El valor %d no se encuentra en el vector.\n", valorBuscado);
+    }
+
+    return 0;
 }
         
