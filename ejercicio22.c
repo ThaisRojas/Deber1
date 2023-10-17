@@ -7,3 +7,9 @@ int esMultiploDe5(int numero) {
         return 0; 
     }
 } 
+int main() {
+    int valor;
+
+    printf("Ingrese un número entero: ");
+    scanf("%d", &valor);
+}
