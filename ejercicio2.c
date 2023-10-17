@@ -9,4 +9,6 @@ int main() {
 
     printf("Ingrese un número entero: ");
     scanf("%d", &numero);
+
+    resultado = UltimosDigitos(numero);
 }
