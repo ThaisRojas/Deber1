@@ -8,4 +8,14 @@ int contieneDigito(int numero, int digito) {
         }
         numero /= 10;
     }
+    return 0;
 }            
+int main() {
+    int numero, digito;
+
+    printf("Ingrese un número entero: ");
+    scanf("%d", &numero);
+
+    printf("Ingrese un dígito a buscar: ");
+    scanf("%d", &digito);
+}
