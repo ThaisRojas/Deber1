@@ -7,5 +7,6 @@ int ValorVector(int vector[], int valor, int longitud) {
             return 1; 
         }
     }
+    return 0;
 }
         
