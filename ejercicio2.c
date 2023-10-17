@@ -11,4 +11,8 @@ int main() {
     scanf("%d", &numero);
 
     resultado = UltimosDigitos(numero);
+
+    printf("Los dos últimos dígitos de %d son: %02d\n", numero, resultado);
+
+    return 0;
 }
