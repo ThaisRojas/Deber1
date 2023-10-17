@@ -18,4 +18,12 @@ int main() {
 
     printf("Ingrese un dígito a buscar: ");
     scanf("%d", &digito);
+
+    if (contieneDigito(numero, digito)) {
+        printf("%d contiene el dígito %d.\n", numero, digito);
+    } else {
+        printf("%d no contiene el dígito %d.\n", numero, digito);
+    }
+
+    return 0;
 }
